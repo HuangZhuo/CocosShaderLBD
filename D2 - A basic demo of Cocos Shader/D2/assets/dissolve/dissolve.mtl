@@ -30,7 +30,7 @@
         "__uuid__": "1b7f06e5-968c-4c4b-ac5e-4fcd1e93c372@6c48a",
         "__expectedType__": "cc.Texture2D"
       },
-      "dissolveThreshold": 0.4
+      "dissolveThreshold": 0
     }
   ]
 }
