@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.7",
+  "__version__": "1.0.8",
   "modules": {
     "cache": {
       "base": {
@@ -12,7 +12,7 @@
         "_value": true
       },
       "gfx-webgl2": {
-        "_value": true
+        "_value": false
       },
       "animation": {
         "_value": true
@@ -94,8 +94,17 @@
       "tween": {
         "_value": true
       },
+      "websocket": {
+        "_value": true
+      },
+      "websocket-server": {
+        "_value": false
+      },
       "terrain": {
         "_value": false
+      },
+      "light-probe": {
+        "_value": true
       },
       "tiled-map": {
         "_value": true
@@ -109,6 +118,9 @@
       "marionette": {
         "_value": false
       },
+      "procedural-animation": {
+        "_value": false
+      },
       "custom-pipeline": {
         "_value": false
       }
@@ -120,7 +132,6 @@
       "base",
       "dragon-bones",
       "gfx-webgl",
-      "gfx-webgl2",
       "intersection-2d",
       "light-probe",
       "particle-2d",
